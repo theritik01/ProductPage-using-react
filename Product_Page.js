@@ -1,0 +1,446 @@
+const Products = [
+    {
+      id: "1",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+
+    {
+      id: "2",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+
+    {
+      id: "3",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "4",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "5",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "6",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "7",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "8",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "9",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "10",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "11",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "12",
+      name: "2 3/4 * Kuruvi",
+      image:"	https://www.crackersshope.com/wp-content/uploads/2018/09/Classis-color-spackerls-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "13",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "14",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "15",
+      name: "2 3/4 * Kuruvi",
+      image:
+        "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2558-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+    },
+    {
+      id: "1",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+
+  {
+      id: "2",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+
+  {
+      id: "3",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "4",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "5",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "6",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "7",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "8",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "9",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "10",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "11",
+      name: "4* Special Laxmi",
+      image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+      old_price: "50.00",
+      new_price: "25.00",
+  },
+  {
+      id: "12",
+      name: "2 3/4 * Kuruvi",
+      image: "	https://www.crackersshope.com/wp-content/uploads/2018/09/Classis-color-spackerls-300x300.jpg",
+      old_price: "22.00",
+      new_price: "11.00",
+  },
+  {
+      id: "13",
+      name: "45 cm Twinkling Star",
+      image: "https://www.crackersshope.com/wp-content/uploads/2017/08/45cm_Twinkling_Star_Crackersshope.com_.jpg",
+      old_price: "62.00",
+      new_price: "31.00",
+  },
+  {
+      id: "14",
+      name: "Chit put",
+      image: "https://www.crackersshope.com/wp-content/uploads/2017/08/Chit-Put-min-300x300.jpg",
+      old_price: "60.00",
+      new_price: "30.00",
+  },
+  {
+      id: "15",
+      name: "Stripped Bijili 100's",
+      image: "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2540-300x300.jpg",
+      old_price: "90.00",
+      new_price: "45.00",
+  },
+  {
+    id: "1",
+    name: "Serpant Egg",
+    image: "https://www.crackersshope.com/wp-content/uploads/2019/08/Serpant-Egg-Egg-and-Gun-300x300.jpg",
+    old_price: "62.00",
+    new_price: "31.00",
+},
+
+{
+    id: "2",
+    name: "2 Sound Crackers",
+    image: "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2554-300x300.jpg",
+    old_price: "66.00",
+    new_price: "33.00",
+},
+
+{
+    id: "3",
+    name: "Emerald Foiled (Sony)",
+    image: "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2519-300x300.jpg",
+    old_price: "70.00",
+    new_price: "35.00",
+},
+{
+    id: "4",
+    name: "Western (red & green fountain)",
+    image: "https://www.crackersshope.com/wp-content/uploads/2017/08/Western-crackersshope.jpg",
+    old_price: "96.00",
+    new_price: "48.00",
+},
+{
+    id: "5",
+    name: "Hero Classic Ragbag",
+    image: "https://www.crackersshope.com/wp-content/uploads/2017/08/color-matches-crackersshope.jpg",
+    old_price: "97.00",
+    new_price: "48.50",
+},
+{
+    id: "6",
+    name: "Hydro Bomb",
+    image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Hydro-bomb-Green-300x300.jpg",
+    old_price: "122.00",
+    new_price: "61.00",
+},
+{
+    id: "7",
+    name: "Flower Pot Small",
+    image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Flower-pot-small-300x300.jpg",
+    old_price: "132.00",
+    new_price: "66.00",
+},
+{
+    id: "8",
+    name: "120 cm Twinkle Star",
+    image: "https://www.crackersshope.com/wp-content/uploads/2017/08/120cm_Twinkle_Star_Crackersshope.com_.jpg",
+    old_price: "168.00",
+    new_price: "84.00",
+},
+{
+    id: "9",
+    name: "Ground Chakara 45 cm",
+    image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Ground-Chakara-45-cm-300x300.jpg",
+    old_price: "185.00",
+    new_price: "92.50",
+},
+{
+    id: "10",
+    name: "Lay’s (asrafi fountain)",
+    image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Lays-300x300.jpg",
+    old_price: "212.00",
+    new_price: "106.00",
+},
+{
+    id: "11",
+    name: "4* Special Laxmi",
+    image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Laxmi-Super-300x300.jpg",
+    old_price: "50.00",
+    new_price: "25.00",
+},
+{
+    id: "12",
+    name: "2* Fancy Pipe",
+    image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Silver-Double-300x300.jpg",
+    old_price: "223.00",
+    new_price: "101.50",
+},
+{
+    id: "13",
+    name: "45 cm Twinkling Star",
+    image: "https://www.crackersshope.com/wp-content/uploads/2017/08/45cm_Twinkling_Star_Crackersshope.com_.jpg",
+    old_price: "62.00",
+    new_price: "31.00",
+},
+{
+    id: "14",
+    name: "Chit put",
+    image: "https://www.crackersshope.com/wp-content/uploads/2017/08/Chit-Put-min-300x300.jpg",
+    old_price: "60.00",
+    new_price: "30.00",
+},
+{
+    id: "15",
+    name: "777(5 Pcs)",
+    image: "https://www.crackersshope.com/wp-content/uploads/2020/09/777-Crackers-Gallery-300x300.jpg",
+    old_price: "237.00",
+    new_price: "118.50",
+},{
+  id: "1",
+  name: "Flower Pots Special (Red & Green)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2588-300x300.jpg",
+  old_price: "290.00",
+  new_price: "145.00",
+},
+
+{
+  id: "2",
+  name: "50 cm. Electric Sparklers",
+  image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Color-2-300x300.jpg",
+  old_price: "318.00",
+  new_price: "159.00",
+},
+
+{
+  id: "3",
+  name: "Ground Chakkar deluxe",
+  image: "https://www.crackersshope.com/wp-content/uploads/2017/08/Ground-chakkar-300x300.png",
+  old_price: "326.00",
+  new_price: "163.00",
+},
+{
+  id: "4",
+  name: "Dancer Butterfly (Sony)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2505-300x300.jpg",
+  old_price: "348.00",
+  new_price: "174.00",
+},
+{
+  id: "5",
+  name: "12 Shot Mega (Sony)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2429-300x300.jpg",
+  old_price: "348.00",
+  new_price: "174.00",
+},
+{
+  id: "6",
+  name: "Electro ( 5 Pieces)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2017/08/Electro-Fancy-Fountain-300x300.jpg",
+  old_price: "350.00",
+  new_price: "175.00",
+},
+{
+  id: "7",
+  name: "Scootie ( 5 Pcs)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2020/09/Scoot-Fancy-Fountain-300x300.jpg",
+  old_price: "350.00",
+  new_price: "175.00",
+},
+{
+  id: "8",
+  name: "Smoothie (5 Pcs)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2020/09/Smoothie-Fancy-Fountains--300x300.jpg",
+  old_price: "350.00",
+  new_price: "175.00",
+},
+{
+  id: "9",
+  name: "Bazooka",
+  image: "https://www.crackersshope.com/wp-content/uploads/2020/09/Bazooka-Fancy-Fountain--300x300.jpg",
+  old_price: "350.00",
+  new_price: "175.00",
+},
+{
+  id: "10",
+  name: "Jurassic Bomb",
+  image: "https://www.crackersshope.com/wp-content/uploads/2021/08/DSCF2521-300x300.jpg",
+  old_price: "370.00",
+  new_price: "185.00",
+},
+{
+  id: "11",
+  name: "Green Peacock",
+  image: "https://www.crackersshope.com/wp-content/uploads/2017/08/Green-peacock-crackersshope.com_.jpg",
+  old_price: "370.00",
+  new_price: "185.00",
+},
+{
+  id: "12",
+  name: "Hulk (Star Crackling)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2018/09/hulk-300x300.jpg",
+  old_price: "374.00",
+  new_price: "187.00",
+},
+{
+  id: "13",
+  name: "Flower Pots Deluxe",
+  image: "https://www.crackersshope.com/wp-content/uploads/2018/09/Flower-Pot-Deluxe-300x300.jpg",
+  old_price: "396.00",
+  new_price: "198.00",
+},
+{
+  id: "14",
+  name: "Tom & Jerry (6 in one multivolor fountain)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2017/08/Tom-Jerry-crackersshope.jpg",
+  old_price: "404.00",
+  new_price: "202.00",
+},
+{
+  id: "15",
+  name: "12 Days (Red White Blue Yellow Boom)",
+  image: "https://www.crackersshope.com/wp-content/uploads/2019/08/12-shot-min-300x300.jpg",
+  old_price: "450.00",
+  new_price: "225.00",
+}
+    
+];
+
+export default Products;
